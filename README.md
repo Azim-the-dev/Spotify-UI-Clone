@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Spotify Clone</h1>
+<h2>Spotify Clone</h2>
 </div>
 
 This is a simple Spotify Web Player home screen UI clone.
