@@ -2,7 +2,7 @@
 
 This is a simple Spotify Web Player home screen UI clone.
 
-Link: 
+Link: spotify-ui-clone-azim.netlify.app
 
 ## Built With
 
