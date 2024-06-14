@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Clone By Azim</title>
+
+    <link rel="icon" href="assets/logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="sidebar">
+
+            <!-- Nav-Bar -->
+            <div class="nav">
+                <div class="nav_option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav_option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a>Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="options">
+                    <div class="lib_option nav_option">
+                        <img src="assets/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="lib_boc">
+                    <div class="box">
+                        <p class="box_p1">Create your first playlist</p>
+                        <p class="box_p2">It's easy, we'll help you</p>
+                        <button class="bedge">Create playlist</button>
+                    </div>
+                    <div class="box box_hg">
+                        <p class="box_p1">Let's find some podcasts to follow</p>
+                        <p class="box_p2">We'll keep you updated on new episode</p>
+                        <button class="bedge">Broude podcasts</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Main-Content -->
+        <div class="main_content">
+
+            <!-- Sticky Nav -->
+            <div class="sticky_nav">
+                <div class="sticky_nav_icons">
+                    <i class="fa-solid fa-caret-left fa-2x" id="right"></i>
+                    <i class="fa-solid fa-caret-right fa-2x" id="left" class="hide"></i>
+                    <!-- <img src="assets/backward_icon.png" > -->
+                    <!-- <img class="hide" src="assets/forward_icon.png" > -->
+                </div>
+                <div class="sticky_nav_options">
+                    <button class="bedge nav-item hide">Explore
+                        Premium</button>
+                    <button class="bedge dark_bedge nav-item"><i class="fa-regular fa-circle-down"
+                            style="margin-right: 6px;"></i>Install app</button>
+                    <button class="bedge nav-item"><i class="fa-regular fa-user"></i></button>
+                </div>
+            </div>
+
+            <!-- Cards -->
+            <h2>Recently Played</h2>
+            <div class="card_container">
+                <div class="card_1">
+                    <div>
+                        <img src="assets/card1img.jpg" class="card_img_1">
+                    </div>
+                    <p class="card_titel">Imagine Dragons</p>
+                    <p class="card_info">Artist</p>
+                </div>
+
+                <div class="card_1">
+                    <img src="assets/card2img.jpeg" class="card_img_1">
+                    <p class="card_titel">T3NZU</p>
+                    <p class="card_info">Artist</p>
+                </div>
+            </div>
+
+            <!-- - - - -->
+            <h2>Made For Sk Azim</h2>
+            <div class="card_container">
+                <div class="card">
+                    <img src="assets/card3img.jpeg" class="card_img">
+                    <p class="card_titel">Alan Walker MIx</p>
+                    <p class="card_info">Alan Walker, LIZOT, Cosmic Gate and more</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card6img.jpeg" class="card_img">
+                    <p class="card_titel">Zandaya Mix</p>
+                    <p class="card_info">Sergio Valentino, Slowo and DVRST</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card5img.jpeg" class="card_img">
+                    <p class="card_titel">T3NZU Mix</p>
+                    <p class="card_info">Billie Eilish, Bridgit Mendler and Adam Hicks</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card4img.jpeg" class="card_img">
+                    <p class="card_titel">Billie Eilish Mix</p>
+                    <p class="card_info">Billie Eilish and more</p>
+                </div>
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="card_container">
+                <div class="card">
+                    <img src="assets/card7img.jpeg" class="card_img">
+                    <p class="card_titel">Just Try to Forget</p>
+                    <p class="card_info">The one-hit wonders that will stay</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card8img.jpeg" class="card_img">
+                    <p class="card_titel">All Out 2020s</p>
+                    <p class="card_info">The biggest songs of the 2020s</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card9img.jpeg" class="card_img">
+                    <p class="card_titel">Discover Weekly</p>
+                    <p class="card_info">Your weekly mixtape of fresh music</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card10img.jpeg" class="card_img">
+                    <p class="card_titel">This Is T3NZU</p>
+                    <p class="card_info">This Is T3NZU</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card11img.jpeg" class="card_img">
+                    <p class="card_titel">Pop Shots</p>
+                    <p class="card_info">All your pop favorites. Cover: Olivia Rodrigo</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card12img.jpeg" class="card_img">
+                    <p class="card_titel">Balenciaga</p>
+                    <p class="card_info">T3NZU</p>
+                </div>
+            </div>
+
+            <h2>Top Global</h2>
+            <div class="card_container">
+
+                <div class="card">
+                    <img src="assets/card17img.jpeg" class="card_img">
+                    <p class="card_titel">Top 50 Global</p>
+                    <p class="card_info">Global</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card19img.jpeg" class="card_img">
+                    <p class="card_titel">Top Songs Global</p>
+                    <p class="card_info">Weekly Music Chats</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card18img.jpeg" class="card_img">
+                    <p class="card_titel">Top Songs India</p>
+                    <p class="card_info">India</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card19img.jpeg" class="card_img">
+                    <p class="card_titel">Top Songs Global</p>
+                    <p class="card_info">Weekly Music</p>
+                </div>
+            </div>
+
+            <h2>Are you afraid of clowns?</h2>
+            <div class="card_container">
+
+                <div class="card">
+                    <img src="assets/card13img.jpeg" class="card_img">
+                    <p class="card_titel">The Clown-E01</p>
+                    <p class="card_info">Oct 2022-10 min</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card14img.jpeg" class="card_img">
+                    <p class="card_titel">The Clown-E02</p>
+                    <p class="card_info">Oct 2022-12 min</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card15img.jpeg" class="card_img">
+                    <p class="card_titel">The Clown-E03</p>
+                    <p class="card_info">Oct 2022-16 min</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/card16img.jpeg" class="card_img">
+                    <p class="card_titel">The Clown-E04</p>
+                    <p class="card_info">Oct 2022-18 min</p>
+                </div>
+            </div>
+
+            <footer>
+                <hr>
+                <h5 class="next"><a href="https://github.com/Azim-me" target="_blank">CREATED BY SK AZIM</a>
+                </h5>
+            </footer>
+
+        </div>
+
+        <!-- Music-Player -->
+        <div class="music_player">
+
+            <div class="album">
+                <img src="assets/album_picture.jpeg" class="album_pic">
+                <div class="album_text">
+                    <p style="font-weight: 580;">Love Me Like You Do</p>
+                    <p style="opacity: 0.6; font-size: 0.7rem;">Ellie Goulding</p>
+                </div>
+                <img src="assets/album_icon1.png" class="alb_icon1">
+            </div>
+
+            <div class="player">
+                <div class="player_controls">
+                    <img src="assets/player_icon1.png" class="player_control_icon">
+                    <img src="assets/player_icon2.png" class="player_control_icon">
+                    <img src="assets/player_icon3.png" class="player_control_icon" style="opacity: 1; height: 2rem;">
+                    <img src="assets/player_icon4.png" class="player_control_icon">
+                    <img src="assets/player_icon5.png" class="player_control_icon">
+                </div>
+
+                <div class="playback_bar">
+                    <span class="curr_time">01:24</span>
+                    <input class="progress_bar" type="range" min="0" max="100">
+                    <span class="tot_time">2:23</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <img src="assets/controls_icon1.png" class="con_icon" style="height: 2.2rem;">
+                <img src="assets/controls_icon2.png" class="con_icon" style="height: 2.33rem;">
+                <img src="assets/controls_icon3.png" class="con_icon" style="height: 1.3rem;">
+                <img src="assets/controls_icon4.png" class="con_icon" style="height: 0.9rem;">
+                <img src="assets/controls_icon5.png" class="con_icon" style="height: 2.3rem;">
+                <input class="con_volume" type="range" min="0" max="100">
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile">
+
+        <!-- Nav -->
+        <div class="mobile_nav">
+            <div class="ico">
+                <img src="assets/mobile/Spotify_icom.png">
+            </div>
+            <div class="m_nav_bar">
+                <i class="fa-solid fa-bars fa-1.2x"></i>
+            </div>
+        </div>
+
+        <!-- Main -->
+        <div class="mobile_main">
+            <div class="mobile_icon">
+                <img src="assets/mobile/mobile_icon.png">
+            </div>
+            <h1>Not Supported Device!</h1>
+            <p>Switch to a desktop or laptop for full functionality.</p>
+            <button class="bedge">Don't Click</button>
+        </div>
+
+        <!-- Footer -->
+        <div class="mobile_footer">
+            <div class="all_device_icon">
+                <img src="assets/mobile/all-devices.png">
+            </div>
+            <h5 class="next"><a href="https://github.com/Azim-me" target="_blank">CREATED BY SK AZIM</a>
+        </div>
+
+    </div>
+
+    <!-- DISABLE RIGHT CLICK (JS) -->
+    <script type="text/javascript">
+        document.onkeydown = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123 || event.keyCode == 18) {
+                return false;
+            }
+        }
+        document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+</body>
+
+</html>
