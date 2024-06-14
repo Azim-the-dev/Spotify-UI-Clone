@@ -1,4 +1,6 @@
+<div align="center">
 ## Spotify Clone
+</div>
 
 This is a simple Spotify Web Player home screen UI clone.
 
